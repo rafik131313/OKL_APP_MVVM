@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MainActivity"
+    android:background="@drawable/background_main_dark">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/zubr"
+            android:adjustViewBounds="true">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/TV_about_header"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Park-aboretum w Gołuchowie"
+            style="@style/TDStyle"
+            android:background="@drawable/picture_description"/>
+
+        <TextView
+            android:id="@+id/TV_about_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingMultiplier="1.2"
+            android:text="@string/about_text"
+            android:layout_marginTop="5dp"
+            style="@style/TVStyle"
+            android:background="@color/dark_text">
+        </TextView>
+
+    </LinearLayout>
+
+</ScrollView>

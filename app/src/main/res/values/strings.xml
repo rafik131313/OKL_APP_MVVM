@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">OKL_APP_MVVM</string>
+    <string name="o_parku">O parku</string>
+    <string name="mapa">Mapa</string>
+    <string name="godziny_otwarcia">Godziny otwarcia</string>
+    <string name="zwierzeta">Zwierzęta</string>
+    <string name="about_text" translatable="false">Ośrodek Kultury Leśnej (OKL) w Gołuchowie działa w strukturze Państwowego Gospodarstwa Leśnego Lasy Państwowe.
+    Jako samodzielna jednostka organizacyjna został powołany w grudniu 1986 roku, jednak pierwsze kroki w kierunku jego utworzenia poczyniono już w latach 70. XX wieku, kiedy to zapadła decyzja o lokalizacji Muzeum Leśnictwa na terenie dziewiętnastowiecznego założenia zamkowo-parkowego w Gołuchowie
+    Koncepcja utworzenia muzeum leśnictwa pojawiła się podczas jednego z pierwszych posiedzeń Galicyjskiego Towarzystwa Leśnego (późniejsze Polskie Towarzystwo Leśne) pod koniec XIX wieku. Potrzebę powstania tego typu muzeum ogłoszono w formie apelu w 1894 roku w czasie trwania Powszechnej Wystawy Krajowej we Lwowie, na której prezentowano dorobek polskich leśników.
+    Do treści apelu powracano wielokrotnie przy okazji różnych zjazdów, konferencji i następnych tego rodzaju wystaw.</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="farm">Zagroda zwierząt</string>
+    <string name="castle">Zamek w Gołuchowie</string>
+    <string name="parking">Parking</string>
+    <string name="coach_house">Powozownia</string>
+    <string name="offices">Biura oraz kasa</string>
+    <string name="annexe">Oficyna</string>
+    <string name="photos">Zdjecia</string>
+    <string name="visiting">Zwiedzanie parku</string>
+    <string name="quiz">Pytania</string>
+    <string name="score">WYNIK</string>
+    <string name="points">0</string>
+    <string name="resetuj_punkty">Resetuj punkty</string>
+    <string name="settings">Settings</string>
+    <string name="informacje_o_aplikacji">informacje o aplikacji</string>
+    <string name="select_image_and_button">Wybierz zdjęcie i wciśnij guzik.</string>
+    <string name="instrukcja_visiting">Uruchom tryb zwiedzania klikając guzik po lewej stronie!</string>
+    <string name="gratulacje">Gratulacje!</string>
+    <string name="zatwierd">Zatwierdź</string>
+    <string name="analizuj_zdj_cie">Analizuj zdjęcie</string>
+    <string name="wybierz_zdj_cie">Wybierz zdjęcie</string>
+    <string name="aparat">Aparat</string>
+    <string name="ekran_g_wny">Ekran główny</string>
+    <string name="gry_i_zabawy">Gry i zabawy</string>
+    <string name="Zubry">Żubry. Żubr jest największym ssakiem lądowym Europy. W Polsce żyje w stadach na wolności oraz w hodowlach zamkniętych. Jest objęty ochroną gatunkową. Żubry do Gołuchowa przywieziono w 1977 r. Gołuchowskie stado zapoczątkowały: byk Plantor i krowa Polira z Ośrodka Hodowli Żubra w Smardzewicach oraz krowy Ponta i Polana z Ośrodka Hodowli Żubra w Pszczynie. Ogółem w Pokazowej Zagrodzie Zwierząt do końca 2009 roku hodowano 88 żubrów, z tego 76 osobników urodzonych w Gołuchowie. Organizacja zagrody i wydzielenie tzw. zagród dziennych pozwala na oglądanie zwierząt od świtu do zmierzchu przez cały rok.</string>
+    <string name="Koniki">Koniki polskie. Z Roztoczańskiego Parku Narodowego, w 2004 r. sprowadzono koniki polskie. Koniki polskie pochodzą od tarpanów leśnych, niewielkich ssaków z rodziny koniowatych, maści myszatej z ciemną pręgą biegnącą wzdłuż grzbietu, czarnym ogonem i czarną grzywą. Spokojne i łagodne koniki polskie są gatunkiem o małych wymaganiach hodowlanych.</string>
+    <string name="Dziki">Dziki. Są mieszkańcami gołuchowskiej Zagrody od 2004 r. Sprowadzono je ze Stacji Badawczej Polskiego Związku Łowieckiego w Czempiniu.Dzik zasiedla wszystkie typy lasu. Jest wszystkożerny. Do jego przysmaków należą żołędzie oraz rośliny uprawne takie jak ziemniaki i kukurydza. Dorosły osobnik osiąga 80 cm wysokości i długość ciała 150 cm. Jest gatunkiem łownym.</string>
+    <string name="Daniele">Daniele. Pierwsze osobniki sprowadzono do Gołuchowa w 1997 r. Wówczas były to białe daniele z Ogrodu Zoologicznego we Wrocławiu, aktualnie w zagrodzie podziwiać można daniele o typowym leśnym ubarwieniu, przekazane z Nadleśnictwa Podanin.
+Daniel został sprowadzony do Polski w XVII wieku. Obecnie występuje niemal w całym kraju. Jest gatunkiem łownym. Porusza się w charakterystyczny sposób: galopując, skacze, odbijając się jednocześnie czterema nogami.</string>
+    <string name="daniel">Daniele</string>
+    <string name="dzik">Dziki</string>
+    <string name="zubr">Żubry</string>
+    <string name="konik">Koniki</string>
+    <string name="oficyna_9_00_18_00">Oficyna 9:00 - 18:00</string>
+    <string name="biura_9_00_18_00">Biura 9:00 - 18:00</string>
+    <string name="zamek_9_00_18_00">Zamek 9:00 - 18:00</string>
+    <string name="powozownia_9_00_18_00">Powozownia 9:00 - 18:00</string>
+    <string name="parking_jest_darmowy_i_otwarty_od_wschodu_do_zmierzchu">Parking jest darmowy i otwarty od wschodu do zmierzchu.</string>
+    <string name="instrukcja_wybor_zdjecia">Wybierz zdjęcie, by następnie zrobić zdjęcie obiektu i otrzymać punkt</string>
+    <string name="Zatwierdź">ZATWIERDŹ</string>
+    <string name="Koniec">Zakończ</string>
+    <string name="Nastepne_pytanie">Następne pytanie</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="podpisz">Podpisz roślinę</string>
+    <string name="podpisywanie_instrukcja">Podpisz zdjęcie zgodnie z prawdą, a następnie zaatwierdź decyzję guzikiem.</string>
+    <string name="tabela">Tabela Wynków</string>
+    <string name="client_id">798302625171-a4mgn9pj6bjddc8f8vraaqe3bbp2anh6.apps.googleusercontent.com</string>
+    <string name="you_are_logged">You have to log in.</string>
+    <string name="turnon">ON</string>
+    <string name="turnoff">OFF</string>
+    <string name="title_activity_google_maps">GoogleMapsActivity</string>
+    <string name="analizuj">Analizuj zdjęcie</string>
+    <string name="zdjecie">Zrób zdjęcie</string>
+    <string name="tablica_wynik_w">Tablica Wyników</string>
+    <string name="eby_zobaczy_wynik">Żeby zobaczyć wynik</string>
+    <string name="aplikacja">Apliacja powstała jako część pracy inżynierskiej Rafała Stefaniaka. Do prawidłowego funkcjonowania, wymagana jest wersja Androida 6.0. \nZdjęcia oraz informacje zawarte w aplikacji pochodzą ze strony Ośrodka Kultury Leśnej w Gołuchowie https://www.okl.lasy.gov.pl oraz od samego autora. Ośrodek Kultury Leśnej wyraził zgodę na udostępnienie autorowi treści ze strony internetowej w celach niekomercyjnych. Odnośniki do obrazów użytych w aplikacji, których autor nie wykonał osobiście można znaleźć w pracy pisemnej. W przypadku pytań dotyczących aplikacji lub występowania błędów, proszę o kontakt na adres rafi13.rs@gmail.com</string>
+    <string name="permissions">Jeśli chcesz skorzystać z tej funkcjonalności aplikacji, udaj się do ustawień i przynaj aplikacji pozwolenia na używanie apartu.</string>
+    <string name="gj">Gratulacje, dodano punkt!</string>
+    <string name="restarted">Zresetowano punkty!</string>
+    <string name="are_you_sure">Czy obiekt na zdjęciu jest prawidłowy?</string>
+    <string name="picture_again">Zrób zdjęcie ponownie.</string>
+    <string name="sightseeing">Tryb zwiedzania został uruchomiony</string>
+    <string name="name_flower">Podaj nazwę rośliny</string>
+    <string name="bisons">Żubry</string>
+    <string name="polish_pony">Koniki Polskie</string>
+    <string name="boars">Dziki</string>
+    <string name="fallow_deer">Daniele</string>
+    <string name="About_app">Informacje dotyczące aplikacji</string>
+    <string name="Travel">Podróż po parku!</string>
+    <string name="Permission">Musisz udzielić uprawnienia w celu korzystania z aplikacji.</string>
+    <string name="pointsWontBeAdded">Punkty nie zostaną dodane, ponieważ nie była to pierwsza gra!</string>
+    <string name="Earned">Zdobyto</string>
+    <string name="rightAnsw">Poprawnie odpowiedziano na</string>
+    <string name="gjPoints">pytań. Gratulacje !</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

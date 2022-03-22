@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">OKL_APP</string>
+    <string name="o_parku">About park</string>
+    <string name="mapa">Map</string>
+    <string name="godziny_otwarcia">Opening hours</string>
+    <string name="zwierzeta">Animals</string>
+    <string name="about_text" translatable="false">The Forest Culture Center (OKL) in Gołuchów operates within the structure of the State Forests National Forest Holding.
+    It was established as an independent organizational unit in December 1986, but the first steps towards its creation were made in the 1970s, when the decision was made to locate the Forestry Museum in the 19th-century castle and park complex in Gołuchów
+    The concept of establishing a forestry museum appeared during one of the first meetings of the Galician Forest Society (later the Polish Forest Society) at the end of the 19th century. The need to create this type of museum was announced in the form of an appeal in 1894 during the General National Exhibition in Lviv, where the achievements of Polish foresters were presented.
+    The content of the appeal was repeated many times during various conventions, conferences and other such exhibitions.</string>
+    <string name="farm">Animal farm</string>
+    <string name="castle">Castle</string>
+    <string name="parking">Parking</string>
+    <string name="coach_house">Coach house</string>
+    <string name="offices">Offices</string>
+    <string name="annexe">Annexe</string>
+    <string name="photos">Photos</string>
+    <string name="visiting">Visiting the park</string>
+    <string name="quiz">Quiz</string>
+    <string name="score">SCORE</string>
+    <string name="points">0</string>
+    <string name="resetuj_punkty">Reset points</string>
+    <string name="settings">Settings</string>
+    <string name="informacje_o_aplikacji">About app</string>
+    <string name="select_image_and_button">Select image and press predict button.</string>
+    <string name="instrukcja_visiting">Go to the right place to get a point.</string>
+    <string name="gratulacje">Great job!</string>
+    <string name="zatwierd">Submit</string>
+    <string name="analizuj_zdj_cie">Analyze the photo</string>
+    <string name="wybierz_zdj_cie">Select a photo</string>
+    <string name="aparat">Camera</string>
+    <string name="ekran_g_wny">Main Screen</string>
+    <string name="gry_i_zabawy">Games</string>
+    <string name="Zubry">Bisons. The bison is the largest land mammal in Europe. In Poland, it lives in herds in the wild and in closed farms. It is under species protection. Bisons were brought to Gołuchów in 1977. The Gołuchów herd was started by: the bull Plantor and the cow Polira from the Bison Breeding Center in Smardzewice and the cows Ponta and Polana from the Bison Breeding Center in Pszczyna. In total, 88 bison were bred in the Show Animal Farm by the end of 2009, 76 of them were born in Gołuchów. Organization of the homestead and the separation of the so-called day pens allow you to watch the animals from dawn to dusk all year round.</string>
+    <string name="Koniki">
+Polish ponies. In 2004, Polish ponies were brought from the Roztocze National Park. Polish ponies come from forest tarpans, small mammals of the equine family, a mouse coat with a dark stripe running along the back, a black tail and a black mane. Calm and gentle Polish ponies are a species with low breeding requirements.</string>
+    <string name="Dziki">Boars have lived in Zaguchów Zagroda since 2004. They were brought from the Research Station of the Polish Hunting Association in Czempiń. The wild boar inhabits all types of forests. It is omnivorous. Its delicacies include acorns and crops such as potatoes and corn. An adult individual reaches 80 cm in height and a body length of 150 cm. It is a game species.</string>
+    <string name="Daniele">Fallow deer. The first specimens were brought to Gołuchów in 1997. Back then, they were white fallow deer from the Zoo in Wrocław, currently in the farm you can admire fallow deer with a typical forest coloration, donated from the Podanin Forest District.
+Daniel was brought to Poland in the 17th century. Currently, it performs almost all over the country. It is a game species. It moves in a characteristic way: galloping, jumping, bouncing with four legs at the same time.</string>
+    <string name="daniel">Fallow-deer</string>
+    <string name="dzik">Boar</string>
+    <string name="zubr">Wisent</string>
+    <string name="konik">Polish Pony</string>
+    <string name="oficyna_9_00_18_00">Annexe 9:00 - 18:00</string>
+    <string name="biura_9_00_18_00">Offices 9:00 - 18:00</string>
+    <string name="zamek_9_00_18_00">Castle 9:00 - 18:00</string>
+    <string name="powozownia_9_00_18_00">Coach House 9:00 - 18:00</string>
+    <string name="parking_jest_darmowy_i_otwarty_od_wschodu_do_zmierzchu">Parking is free and open from sunrise to sunset.</string>
+    <string name="instrukcja_wybor_zdjecia">Select a photo to then take a photo of the object to get a point</string>
+    <string name="Zatwierdź">SUBMIT</string>
+    <string name="Koniec">Finish</string>
+    <string name="Nastepne_pytanie">Next quetsion</string>
+    <string name="podpisz">Sign the plant</string>
+    <string name="podpisywanie_instrukcja">Sign the photo of the plant truthfully</string>
+    <string name="tabela">Scoreboard</string>
+    <string name="you_are_logged">You are logged as:</string>
+    <string name="on">ON</string>
+    <string name="analizuj">Analyze the photo</string>
+    <string name="zdjecie">Take a photo</string>
+    <string name="tablica_wynik_w">Scoreboard</string>
+    <string name="eby_zobaczy_wynik">To see results</string>
+    <string name="permissions">If you want to use this functionality of the application, go to the settings and grant the application permission to use the camera.</string>
+    <string name="gj">Great job, the point is added!</string>
+    <string name="restarted">Points have been reset!</string>
+    <string name="aplikacja">The appliation was created as part of Rafał Stefaniak engineering work. Android 6.0 is required for proper functioning. \ nPhotos and information contained in the application come from the website of the Forest Culture Center in Gołuchów https://www.okl.lasy.gov.pl and from the author himself. The Forest Culture Center has agreed to provide the author with content from the website for non-commercial purposes. Links to images used in the application, which the author did not make personally, can be found in the written work. If you have any questions about the application or there are any bugs, please contact us at rafi13.rs@gmail.com</string>
+    <string name="are_you_sure">Is the subject in the photo correct?</string>
+    <string name="picture_again">Take the picture again.</string>
+    <string name="sightseeing">Tour mode has been started</string>
+    <string name="name_flower">Name the plant</string>
+    <string name="bisons">Bisons</string>
+    <string name="polish_pony">Polish ponies</string>
+    <string name="boars">Boars</string>
+    <string name="fallow_deer">Fallow deer</string>
+    <string name="About_app">About App</string>
+    <string name="Travel">Travel!</string>
+    <string name="Permission">You have to accept permissions.</string>
+    <string name="pointsWontBeAdded">Points will not be added as it was not the first game!</string>
+    <string name="Earned">Earned</string>
+    <string name="rightAnsw">Questions that were answered correctly</string>
+    <string name="gjPoints">Good job !</string>
+
+</resources>

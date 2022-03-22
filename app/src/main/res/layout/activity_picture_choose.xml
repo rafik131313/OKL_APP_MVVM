@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.PictureChoose"
+    android:background="@drawable/background_main_dark">
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="0.9"
+        android:background="@color/oklcolor_darker_inv"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/score_info"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="6dp"
+            android:contentDescription="@string/score"
+            android:gravity="center|end"
+            android:text="@string/score"
+            android:textColor="@color/white_darker"
+            android:textSize="23sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="15dp"
+            android:contentDescription="@string/points"
+            android:gravity="center|end"
+            android:text="0"
+            android:textColor="@color/white_darker"
+            android:textSize="35dp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/l1"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/howToPlay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="4dp"
+            android:text="@string/instrukcja_wybor_zdjecia"
+            android:textAlignment="center"
+            style="@style/TVStyle"
+            android:background="@drawable/picture_description"/>
+
+        <ImageButton
+            android:id="@+id/ibZamek"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/choosing_pic_layout"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            app:srcCompat="@drawable/zamek_mine_img" />
+
+        <ImageButton
+            android:id="@+id/ibOficyna"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/choosing_pic_layout"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="5dp"
+            android:adjustViewBounds="true"
+            android:padding="2dp"
+            app:srcCompat="@drawable/annexe_img" />
+
+        <ImageButton
+            android:id="@+id/ibYellow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/choosing_pic_layout"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:padding="2dp"
+            app:srcCompat="@drawable/yellow_img" />
+
+        <ImageButton
+            android:id="@+id/ibWoodTractor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/choosing_pic_layout"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:padding="2dp"
+            app:srcCompat="@drawable/tractor_img" />
+
+        <ImageButton
+            android:id="@+id/ibTotem"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/choosing_pic_layout"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:padding="2dp"
+            app:srcCompat="@drawable/totem_img" />
+
+        <ImageButton
+            android:id="@+id/ibMask"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/choosing_pic_layout"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:padding="2dp"
+            app:srcCompat="@drawable/mask_img" />
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

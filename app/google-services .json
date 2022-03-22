@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "798302625171",
+    "project_id": "okl-app-mvvm",
+    "storage_bucket": "okl-app-mvvm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:798302625171:android:4706de01d7c31122b51c66",
+        "android_client_info": {
+          "package_name": "com.example.okl_app_mvvm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "798302625171-dvt8mqu7ug3f7mulkn19en70q3vj7d4u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.okl_app_mvvm",
+            "certificate_hash": "1e7e814665e034d17eabf0b83718bd7097027b05"
+          }
+        },
+        {
+          "client_id": "798302625171-a4mgn9pj6bjddc8f8vraaqe3bbp2anh6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLZSQSla50QyU_wqYyHWKuICwLhMe8lTM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "798302625171-a4mgn9pj6bjddc8f8vraaqe3bbp2anh6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

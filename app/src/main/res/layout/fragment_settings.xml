@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MainActivity"
+    android:background="@drawable/background_main_dark">
+
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:alpha="0.9"
+        android:background="@color/dark_text"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/l1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <android.widget.Button
+            android:id="@+id/restart_points"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0.89"
+            android:background="@drawable/button_menu"
+            android:drawableEnd="@drawable/baseline_check_circle_24"
+            android:padding="20dp"
+            android:drawablePadding="5dp"
+            android:text="@string/resetuj_punkty"
+            android:textColor="@color/white_darker"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <android.widget.Button
+            android:id="@+id/info_app"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:alpha="0.89"
+            android:background="@drawable/button_menu"
+            android:drawablePadding="5dp"
+            android:drawableEnd="@drawable/outline_info_24"
+            android:padding="20dp"
+            android:text="@string/informacje_o_aplikacji"
+            android:textColor="@color/white_darker"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:id="@+id/flFragment"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
+

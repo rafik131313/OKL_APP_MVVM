@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_darker">#EFEAEA</color>
+    <color name="oklcolor">#02644d</color>
+    <color name="oklcolor_dark">#1e473f</color>
+    <color name="oklcolor_darker">#102F28</color>
+    <color name="oklcolor_dark_inv">#801e473f</color>
+    <color name="oklcolor_darker_inv">#C87fa03e</color>
+    <color name="default_map">#ece9e1</color>
+    <color name="dark_text">#F0222222</color>
+
+</resources>

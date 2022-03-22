@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_main_dark"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="0.9"
+        android:background="@color/dark_text"
+        android:gravity="right">
+
+        <ImageView
+            android:id="@+id/polishlang"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:contentDescription="@string/switch_left"
+            android:src="@drawable/plflag" />
+
+
+        <ImageView
+            android:id="@+id/englishlang"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="2dp"
+            android:contentDescription="@string/switch_right"
+            android:src="@drawable/ukflag" />
+
+        <ImageView
+            android:id="@+id/settings"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:contentDescription="@string/settings"
+            android:src="@drawable/baseline_settings_applications_24" />
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/about"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:background="@drawable/button_menu"
+            android:drawableBottom="@drawable/baseline_park_24"
+            android:paddingTop="8dp"
+            android:paddingBottom="17dp"
+            android:text="@string/o_parku"
+            android:textColor="@color/white_darker"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/map"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.222" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/map"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:background="@drawable/button_menu"
+            android:drawableBottom="@drawable/baseline_map_24"
+            android:paddingTop="8dp"
+            android:paddingBottom="17dp"
+            android:text="@string/mapa"
+            android:textColor="@color/white_darker"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/about"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.222" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/animals"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/button_menu"
+            android:drawableBottom="@drawable/baseline_pets_24"
+            android:paddingTop="8dp"
+            android:paddingBottom="17dp"
+            android:text="@string/zwierzeta"
+            android:textColor="@color/white_darker"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/openingHours"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/about" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/openingHours"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/button_menu"
+            android:drawableBottom="@drawable/baseline_schedule_24"
+            android:paddingTop="8dp"
+            android:paddingBottom="17dp"
+            android:text="@string/godziny_otwarcia"
+            android:textColor="@color/white_darker"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/animals"
+            app:layout_constraintTop_toBottomOf="@+id/map" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

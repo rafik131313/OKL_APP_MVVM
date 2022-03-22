@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BuildAttributionWarningsFilter">
+    <option name="noGCSettingWarning" value="true" />
+  </component>
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/OKL_APP_MVVM/app/src/main/res/drawable/button_game.xml" value="0.2845" />
+        <entry key="..\:/OKL_APP_MVVM/app/src/main/res/drawable/button_left_main.xml" value="0.2845" />
+        <entry key="..\:/OKL_APP_MVVM/app/src/main/res/drawable/button_menu.xml" value="0.2845" />
+        <entry key="..\:/OKL_APP_MVVM/app/src/main/res/drawable/button_menu_light.xml" value="0.2845" />
+        <entry key="..\:/OKL_APP_MVVM/app/src/main/res/drawable/button_right_main.xml" value="0.2845" />
+        <entry key="..\:/OKL_APP_MVVM/app/src/main/res/drawable/button_switch_off.xml" value="0.2515" />
+        <entry key="..\:/OKL_APP_MVVM/app/src/main/res/drawable/finish_button.xml" value="0.2845" />
+        <entry key="..\:/OKL_APP_MVVM/app/src/main/res/drawable/nav_item_colour_selected.xml" value="0.226" />
+        <entry key="..\:/OKL_APP_MVVM/app/src/main/res/drawable/picslayout.xml" value="0.2555" />
+        <entry key="..\:/OKL_APP_MVVM/app/src/main/res/drawable/picslayout2.xml" value="0.1215" />
+        <entry key="..\:/OKL_APP_MVVM/app/src/main/res/drawable/picslayout3.xml" value="0.2555" />
+        <entry key="..\:/OKL_APP_MVVM/app/src/main/res/drawable/picslayout4.xml" value="0.2555" />
+        <entry key="..\:/OKL_APP_MVVM/app/src/main/res/drawable/picslayout_other.xml" value="0.2555" />
+        <entry key="..\:/OKL_APP_MVVM/app/src/main/res/layout/activity_about.xml" value="0.25" />
+        <entry key="..\:/OKL_APP_MVVM/app/src/main/res/layout/activity_games.xml" value="0.33" />
+        <entry key="..\:/OKL_APP_MVVM/app/src/main/res/layout/activity_google_maps.xml" value="0.3302083333333333" />
+        <entry key="..\:/OKL_APP_MVVM/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/OKL_APP_MVVM/app/src/main/res/layout/activity_maps.xml" value="0.36666666666666664" />
+        <entry key="..\:/OKL_APP_MVVM/app/src/main/res/layout/activity_picture_choose.xml" value="0.3383838383838384" />
+        <entry key="..\:/OKL_APP_MVVM/app/src/main/res/layout/activity_picture_recognize.xml" value="0.36666666666666664" />
+        <entry key="..\:/OKL_APP_MVVM/app/src/main/res/layout/activity_quiz.xml" value="0.36666666666666664" />
+        <entry key="..\:/OKL_APP_MVVM/app/src/main/res/layout/activity_quiz2.xml" value="0.36666666666666664" />
+        <entry key="..\:/OKL_APP_MVVM/app/src/main/res/layout/activity_quiz_result.xml" value="0.36666666666666664" />
+        <entry key="..\:/OKL_APP_MVVM/app/src/main/res/layout/activity_quiz_result2.xml" value="0.36666666666666664" />
+        <entry key="..\:/OKL_APP_MVVM/app/src/main/res/layout/activity_score_board.xml" value="0.36666666666666664" />
+        <entry key="..\:/OKL_APP_MVVM/app/src/main/res/layout/activity_score_board2.xml" value="0.36666666666666664" />
+        <entry key="..\:/OKL_APP_MVVM/app/src/main/res/layout/fragment_about.xml" value="0.36666666666666664" />
+        <entry key="..\:/OKL_APP_MVVM/app/src/main/res/layout/fragment_animal_screen.xml" value="0.36666666666666664" />
+        <entry key="..\:/OKL_APP_MVVM/app/src/main/res/layout/fragment_animals.xml" value="0.36666666666666664" />
+        <entry key="..\:/OKL_APP_MVVM/app/src/main/res/layout/fragment_games.xml" value="0.36666666666666664" />
+        <entry key="..\:/OKL_APP_MVVM/app/src/main/res/layout/fragment_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/OKL_APP_MVVM/app/src/main/res/layout/fragment_information.xml" value="0.36666666666666664" />
+        <entry key="..\:/OKL_APP_MVVM/app/src/main/res/layout/fragment_opening_hours.xml" value="0.284375" />
+        <entry key="..\:/OKL_APP_MVVM/app/src/main/res/layout/fragment_settings.xml" value="0.2078804347826087" />
+        <entry key="..\:/OKL_APP_MVVM/app/src/main/res/layout/fragment_signing_flowers.xml" value="0.36666666666666664" />
+        <entry key="..\:/OKL_APP_MVVM/app/src/main/res/layout/fragment_visiting_park.xml" value="0.25" />
+        <entry key="..\:/OKL_APP_MVVM/app/src/main/res/layout/list_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/OKL_APP_MVVM/app/src/main/res/menu/bottom_nav_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/OKL_APP_MVVM/app/src/main/res/menu/nav_drawer_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/rafi1/Desktop/SSD ZAWARTOŚĆ/OKL_APP_MVVM/app/src/main/res/drawable-xhdpi/outline_info_24.xml" value="0.2815" />
+        <entry key="..\:/Users/rafi1/Desktop/SSD ZAWARTOŚĆ/OKL_APP_MVVM/app/src/main/res/drawable/baseline_check_circle_24_checked.xml" value="0.2855" />
+        <entry key="..\:/Users/rafi1/Desktop/SSD ZAWARTOŚĆ/OKL_APP_MVVM/app/src/main/res/drawable/baseline_done_24.xml" value="0.2855" />
+        <entry key="..\:/Users/rafi1/Desktop/SSD ZAWARTOŚĆ/OKL_APP_MVVM/app/src/main/res/drawable/baseline_map_24.xml" value="0.2855" />
+        <entry key="..\:/Users/rafi1/Desktop/SSD ZAWARTOŚĆ/OKL_APP_MVVM/app/src/main/res/drawable/outline_close_24.xml" value="0.2855" />
+        <entry key="..\:/Users/rafi1/Desktop/SSD ZAWARTOŚĆ/OKL_APP_MVVM/app/src/main/res/drawable/outline_play_arrow_24.xml" value="0.2855" />
+        <entry key="..\:/Users/rafi1/Desktop/SSD ZAWARTOŚĆ/OKL_APP_MVVM/app/src/main/res/layout/activity_picture_choose.xml" value="0.22916666666666666" />
+        <entry key="..\:/Users/rafi1/Desktop/SSD ZAWARTOŚĆ/OKL_APP_MVVM/app/src/main/res/layout/activity_picture_recognize.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/rafi1/Desktop/SSD ZAWARTOŚĆ/OKL_APP_MVVM/app/src/main/res/layout/activity_score_board.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/rafi1/Desktop/SSD ZAWARTOŚĆ/OKL_APP_MVVM/app/src/main/res/layout/fragment_about.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/rafi1/Desktop/SSD ZAWARTOŚĆ/OKL_APP_MVVM/app/src/main/res/layout/fragment_animals.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/rafi1/Desktop/SSD ZAWARTOŚĆ/OKL_APP_MVVM/app/src/main/res/layout/fragment_home.xml" value="0.22916666666666666" />
+        <entry key="..\:/Users/rafi1/Desktop/SSD ZAWARTOŚĆ/OKL_APP_MVVM/app/src/main/res/layout/fragment_information.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/rafi1/Desktop/SSD ZAWARTOŚĆ/OKL_APP_MVVM/app/src/main/res/layout/fragment_settings.xml" value="0.22916666666666666" />
+        <entry key="..\:/Users/rafi1/Desktop/SSD ZAWARTOŚĆ/OKL_APP_MVVM/app/src/main/res/layout/fragment_signing_flowers.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/rafi1/Desktop/SSD ZAWARTOŚĆ/OKL_APP_MVVM/app/src/main/res/layout/fragment_visiting_park.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/rafi1/Desktop/SSD ZAWARTOŚĆ/OKL_APP_MVVM/app/src/main/res/layout/list_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/rafi1/Desktop/SSD ZAWARTOŚĆ/OKL_APP_MVVM/app/src/main/res/menu/bottom_nav_menu.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.MainActivity"
+        android:background="@drawable/background_main_dark">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatinButtonFlowers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/baseline_done_24"
+        app:tint="@color/white_darker"
+        android:backgroundTint="#222222"
+        app:maxImageSize="30dp"
+        app:borderWidth="0dp"
+        />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/howToPlay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:padding="4dp"
+                    android:text="@string/podpisywanie_instrukcja"
+                    android:textAlignment="center"
+                    style="@style/TVStyle"
+                    android:background="@drawable/picture_description"/>
+
+                <ImageButton
+                    android:id="@+id/ibRoza"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/choosing_pic_layout"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"
+                    app:srcCompat="@drawable/fiolek" />
+
+                <EditText
+                    android:id="@+id/roza"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/name_flower"
+                    android:textColor="@color/white_darker"
+                    android:textColorHint="@drawable/text_selector"
+                    android:textAlignment="center"
+                    android:background="@drawable/button_menu"/>
+
+                <ImageButton
+                    android:id="@+id/ibOficyna"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/choosing_pic_layout"
+                    android:scaleType="fitCenter"
+                    android:layout_marginTop="5dp"
+                    android:adjustViewBounds="true"
+                    android:padding="2dp"
+                    app:srcCompat="@drawable/zawilec_gajowy" />
+
+                <EditText
+                    android:id="@+id/tulipan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/name_flower"
+                    android:textColor="@color/white_darker"
+                    android:textColorHint="@drawable/text_selector"
+                    android:textAlignment="center"
+                    android:background="@drawable/button_menu"/>
+
+
+
+                <ImageButton
+                    android:id="@+id/ibYellow"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/choosing_pic_layout"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"
+                    android:padding="2dp"
+                    app:srcCompat="@drawable/kalina_kolarowa" />
+
+                <EditText
+                    android:id="@+id/przebisnieg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/name_flower"
+                    android:textColor="@color/white_darker"
+                    android:textColorHint="@drawable/text_selector"
+                    android:textAlignment="center"
+                    android:background="@drawable/button_menu"/>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>

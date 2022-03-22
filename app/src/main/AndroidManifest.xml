@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.okl_app_mvvm">
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:name=".BaseApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/splashScreenTheme">
+        <activity
+            android:name=".ui.PictureRecognize"
+            android:exported="false" />
+        <activity
+            android:name=".ui.PictureChoose"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ScoreBoard"
+            android:exported="false" />
+        <activity
+            android:name=".ui.QuizResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.QuizActivity"
+            android:exported="false" />
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCJQWQROKOYxVuq-iN7oVbJNLW_lIs7rb8" />
+
+        <activity
+            android:name=".ui.GoogleMapsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_google_maps"
+            android:theme="@style/googleMapsTheme"/>
+        <activity
+            android:name=".ui.AnimalScreen"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="true"
+            android:theme="@style/splashScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <service
+            android:name=".services.TrackingService"
+            android:foregroundServiceType="location" />
+    </application>
+
+</manifest>

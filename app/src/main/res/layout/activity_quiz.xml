@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".ui.QuizActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/background_quiz">
+
+        <TextView
+            android:id="@+id/tv_question"
+            android:background="@drawable/default_option_border"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:paddingBottom="2dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            tools:text="Pytanie?" />
+
+        <ImageView
+            android:id="@+id/iv_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:contentDescription="image"
+            tools:src="@drawable/parking" />
+
+        <LinearLayout
+            android:id="@+id/ll_progress_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:background="@drawable/progressbar_left"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:progressTint="#625e0b"
+                android:max="5"
+                android:minHeight="50dp"
+                android:progress="0" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_progress"
+                android:background="@drawable/progressbar_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingLeft="8dp"
+                android:paddingBottom="13dp"
+                android:paddingEnd="15dp"
+                android:paddingTop="13dp"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="#625e0b"
+                tools:text="0/10" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_option_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/default_option_border"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textColor="#343f2f"
+            android:textSize="18sp"
+            tools:text="Apple" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_option_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/default_option_border"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textColor="#343f2f"
+            android:textSize="18sp"
+            tools:text="Google" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_option_three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/default_option_border"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textColor="#343f2f"
+            android:textSize="18sp"
+            tools:text="Android Inc." />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_option_four"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/default_option_border"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textSize="18sp"
+            android:textColor="#343f2f"
+            tools:text="Nokia" />
+
+        <android.widget.Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/finish_button"
+            android:text="@string/Zatwierdź"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OpeningHours.OpeningHours"
+    android:background="@drawable/background_main_dark"
+    android:orientation="vertical"
+    android:gravity="center">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/godziny_otwarcia"
+    android:textSize="40sp"
+    android:gravity="center"
+    android:padding="3dp"
+    android:textStyle="bold"
+    android:textColor="@color/white_darker"
+    android:background="@color/dark_text"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/dark_text">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/annexe"
+            android:padding="10dp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/oficyna_9_00_18_00"
+            android:paddingLeft="5dp"
+            android:textColor="@color/white_darker"
+            android:layout_gravity="center"
+            android:textSize="30sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/dark_text">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/offices"
+            android:padding="10dp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/biura_9_00_18_00"
+            android:paddingLeft="5dp"
+            android:textColor="@color/white_darker"
+            android:layout_gravity="center"
+            android:textSize="30sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/dark_text">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/castle_resized"
+            android:padding="10dp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/zamek_9_00_18_00"
+            android:paddingLeft="5dp"
+            android:textColor="@color/white_darker"
+            android:layout_gravity="center"
+            android:textSize="30sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/dark_text">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/coach"
+            android:padding="10dp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/powozownia_9_00_18_00"
+            android:paddingLeft="5dp"
+            android:textColor="@color/white_darker"
+            android:layout_gravity="center"
+            android:textSize="30sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        android:layout_margin="20dp"
+        android:background="@color/dark_text">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/parking"
+            android:padding="10dp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/parking_jest_darmowy_i_otwarty_od_wschodu_do_zmierzchu"
+            android:paddingLeft="5dp"
+            android:textColor="@color/white_darker"
+            android:layout_gravity="center"
+            android:textSize="22sp"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
